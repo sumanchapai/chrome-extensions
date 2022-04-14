@@ -12,9 +12,9 @@ these style changes yourself, they come with keyboard shortcuts.
 
 | Command | Description |
 | --------| ------------|
-| Ctrl+i  | apply reader styles |
-| Ctrl+Shift  | very primitive dark mode |
-| Ctrl+Shift+L  | very primitive light mode |
+| Ctrl+I  | toggle apply reader styles |
+| Ctrl+Shift+U  | toggle very primitive light mode |
+| Ctrl+U  |toggle very primitive dark mode |
 
 **For macs *Ctrl* means *Command* key**
 

@@ -16,13 +16,13 @@
       },
       "darken": {
           "suggested_key": {
-              "default": "Ctrl+Shift+I"
+              "default": "Ctrl+U"
           },
           "description": "Reader Extension Dark Mode"
       },
       "lighten": {
           "suggested_key": {
-              "default": "Ctrl+Shift+L"
+              "default": "Ctrl+Shift+U"
           },
           "description": "Reader Extension Light Mode"
       }
