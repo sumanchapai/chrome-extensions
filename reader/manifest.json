@@ -1,0 +1,34 @@
+{
+  "name": "Reader",
+  "description": "Make a webpage read-friendly",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+      "default_popup": "index.html",
+      "default_icon": "logo.png"
+  }, 
+  "commands": {
+      "readerView": {
+          "suggested_key": {
+              "default": "Ctrl+I"
+          },
+          "description": "Applies reader script"
+      },
+      "darken": {
+          "suggested_key": {
+              "default": "Ctrl+Shift+I"
+          },
+          "description": "Reader Extension Dark Mode"
+      },
+      "lighten": {
+          "suggested_key": {
+              "default": "Ctrl+Shift+L"
+          },
+          "description": "Reader Extension Light Mode"
+      }
+  },
+  "permissions": ["scripting", "activeTab"],
+  "background": {
+      "service_worker": "script.js"
+  }
+}

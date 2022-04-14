@@ -1,0 +1,4 @@
+digraph G{
+q0 [label="reader"];
+q0 [shape="doublecircle"];
+}
